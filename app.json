@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "منصة التميز",
+    "slug": "tmz-platform",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/squar_tmz_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Study_Smat_Logo-Copy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ahmed316.tmzplatform"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ahmed316.tmzplatform"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3581e3e5-bf2a-4619-8862-a5de8d0968bc"
+      }
+    }
+  }
+}
